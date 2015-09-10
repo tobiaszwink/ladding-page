@@ -1,0 +1,32 @@
+// div.main
+.main {
+  display: block;
+  width: 100%;
+}
+
+#header {
+  width: 1024px;
+  margin: 15px auto 0 auto;
+  height: 115px;
+  background: #fff;
+
+  h1 {
+    font-size: 18px;
+    margin-left: 10px;
+    display: inline-block;
+    .logo-part {
+      color: $default-green;
+    }
+  }
+
+  nav {
+    height: 100%;
+    float: right;
+    ul li {
+      display: inline-block;
+      float: left;
+      margin: 0 10px 0;
+      font-size: 15px;
+    }
+  }
+}

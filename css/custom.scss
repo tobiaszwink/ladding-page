@@ -16,11 +16,10 @@
 ========== COMPONENTS
 */
 // reusable components
-@import 'components/_components';
+@import 'components/_components.scss';
 
 
 /*!
 ========== SPECIFICS
 */
-// declarations specific to the project, organized according to the items/sections represented
-@import 'specifics/_specifics';
+@import 'specifics/_specifics.scss';
