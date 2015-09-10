@@ -1,0 +1,56 @@
+/*
+Error: File to import not found or unreadable: specifics/_specifics.
+        on line 26 of custom.scss
+
+21: 
+22: /*!
+23: ========== SPECIFICS
+24: *\/
+25: // declarations specific to the project, organized according to the items/sections represented
+26: @import 'specifics/_specifics';
+
+Backtrace:
+custom.scss:26
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/import_node.rb:45:in `import'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `with_base'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Users/tobiaszwink/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.18/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: specifics/_specifics.\A         on line 26 of custom.scss\A \A 21: \A 22: /*!\A 23: ========== SPECIFICS\A 24: */\A 25: // declarations specific to the project, organized according to the items/sections represented\A 26: @import 'specifics/_specifics';"; }

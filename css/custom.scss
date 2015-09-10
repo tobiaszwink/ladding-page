@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*!
+========== INIT
+*/
+
+// styles reset (normalize)
+@import "vendor/_normalize.scss";
+
+/*!
+========== BASE
+*/
+@import "base/_base.scss";
+
+/*!
+========== COMPONENTS
+*/
+// reusable components
+@import 'components/_components';
+
+
+/*!
+========== SPECIFICS
+*/
+// declarations specific to the project, organized according to the items/sections represented
+@import 'specifics/_specifics';
