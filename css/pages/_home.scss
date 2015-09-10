@@ -1,0 +1,18 @@
+// home-apresentation
+.home-apresentation {
+  height: 400px;
+  width: 100%;
+  background-image: url("../img/macbook.jpg");
+  margin: 0 auto;
+  background-position: no-repeat;
+  color: #fff;
+  .inf {
+    width: 50%;
+    padding-top: 150px;
+    margin: 20px auto;
+    h2, p {
+      margin: 0;
+      text-align: center;
+    }
+  }
+}
