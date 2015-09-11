@@ -1,0 +1,11 @@
+// buttons
+
+.btn-main {
+  width: 180px;
+  height: 45px;
+  background: $default-green;
+  border: none;
+  &:focus {
+    border: none;
+  }
+}

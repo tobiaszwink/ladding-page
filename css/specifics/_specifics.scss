@@ -4,10 +4,17 @@
   width: 100%;
 }
 
+.container {
+  width: 1024px;
+  display: block;
+  margin: 0 auto;
+}
+
+// header
 #header {
   width: 1024px;
   margin: 15px auto 0 auto;
-  height: 115px;
+  height: 100px;
   background: #fff;
 
   h1 {
@@ -27,6 +34,7 @@
       float: left;
       margin: 0 10px 0;
       font-size: 15px;
+      cursor: pointer;
     }
   }
 }

@@ -365,6 +365,14 @@ th {
 /*!
 ========== COMPONENTS
 */
+.btn-main {
+  width: 180px;
+  height: 45px;
+  background: #30a94b;
+  border: none; }
+  .btn-main:focus {
+    border: none; }
+
 /*!
 ========== SPECIFICS
 */
@@ -372,10 +380,15 @@ th {
   display: block;
   width: 100%; }
 
+.container {
+  width: 1024px;
+  display: block;
+  margin: 0 auto; }
+
 #header {
   width: 1024px;
   margin: 15px auto 0 auto;
-  height: 115px;
+  height: 100px;
   background: #fff; }
   #header h1 {
     font-size: 18px;
@@ -390,6 +403,25 @@ th {
       display: inline-block;
       float: left;
       margin: 0 10px 0;
-      font-size: 15px; }
+      font-size: 15px;
+      cursor: pointer; }
+
+/*!
+==========  PAGES
+*/
+.home-apresentation {
+  height: 400px;
+  width: 100%;
+  background-image: url("../img/macbook.jpg");
+  margin: 0 auto;
+  background-position: no-repeat;
+  color: #fff; }
+  .home-apresentation .inf {
+    width: 50%;
+    padding-top: 150px;
+    margin: 20px auto; }
+    .home-apresentation .inf h2, .home-apresentation .inf p {
+      margin: 0;
+      text-align: center; }
 
 /*# sourceMappingURL=custom.css.map */
